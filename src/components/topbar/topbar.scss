@@ -1,0 +1,81 @@
+.topbar{
+    height: 70px;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    z-index: 999;
+
+    .topbarLeft{
+        font-size: 30px;
+
+         .logo{
+            text-decoration: none;
+            margin-left: 20px;
+            color: #000;
+            font-weight: 600;
+            gap: 300px;
+
+            span{
+                color: #BCA37F;
+            }
+        }
+
+
+    }
+
+    .topbarCenter{
+        margin-left: 120px;
+        display: flex;
+        
+
+        .topbarLinks{
+            margin-left: 30px;
+            margin-right: 50px;
+            font-size: 16px;
+            font-weight: 500;
+            display: flex;
+            justify-content: space-between;
+            cursor: pointer;
+
+         .icons{
+            align-self: center;
+         } 
+        }
+
+
+    }
+
+    .searchBar{
+        width: 15%;
+        height: 30px;
+        outline: none;
+        border-radius: 4px;
+        border: 1px solid #000;
+        background-color: #fff;
+        display: flex;
+        cursor: pointer;
+        gap: 3px;
+        align-self: center;
+        margin-left: 50px;
+ 
+        input{
+            width: 80%;
+        }
+
+        .searchIcon{
+            font-size: 25px !important;
+            margin-left: 10px;
+        }
+
+        .searchinput{
+            outline: none;
+            border: none;
+        }
+    }
+
+
+}

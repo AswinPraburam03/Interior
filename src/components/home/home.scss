@@ -1,0 +1,44 @@
+.home{
+    display: flex;
+
+    .homeWrapper{
+
+    .homeInt{
+        background: url('../../int.jpg');
+        position: absolute;
+        min-width: 50%;
+        min-height: 600px;
+        margin-left: 500px;
+        margin-top: 100px;
+        background-position: center;
+        background-size: cover;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        z-index: -999;
+      
+    }
+
+
+        .h1{
+           margin: 200px 0 0 200px ;
+            letter-spacing: 1px;
+            line-height: 50px;
+            border: 1px solid #fff;
+            background-color: #EAD7BB;
+            color: #fff;
+            padding: 30px 50px;
+            border: none;
+
+            p{
+                line-height: 30px;
+            }
+        }
+      
+
+        
+        
+    
+
+
+
+}
+}

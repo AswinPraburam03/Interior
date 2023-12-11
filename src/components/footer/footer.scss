@@ -1,0 +1,157 @@
+.footer{
+    margin-top: 70px;
+    z-index: -999;
+    
+    .footerWrapper{
+        text-align: center;
+        font-weight: 600;
+        .newsletter{
+            font-size: 30px;
+
+            p{
+                margin-top: 10px;
+            }
+        }
+
+        .about{
+            font-size: 14px;
+            color: dimgray;
+            margin-top: 30px;
+        }
+
+        .email{
+            margin-top: 60px;
+            width: 420px;
+            margin-left: 530px;
+            padding: 2px 0;
+            border: 1px solid black;
+            border-radius: 5px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            transform: translateY(50%);
+            background-color: #fff;
+            outline: none;
+           border: none;
+
+            input{
+                width: 300px;
+                padding: 10px;
+                border: none;
+                outline: none;   
+            }
+
+            button{
+                padding: 10px 15px;
+                background-color: #7C81AD;
+                color: #fff;
+                cursor: pointer;
+            }
+
+        }
+        }
+
+
+        .footerDetails{
+            background-color: #7C81AD;
+            z-index: -1000;
+
+        .footerpage{
+            margin-left: 100px;
+            display: flex;
+            flex-direction: column;
+            
+    
+            .footerLinks{
+                margin-top: 50px;
+                display: flex;
+                align-items: flex-start;
+                flex-direction: row;
+                flex-wrap: wrap;
+                width: 100%;
+                gap: 80px;
+                margin-bottom: 32px;
+    
+                .Locations{
+                    color: #040D12;
+                    width: 150px;
+                    margin: 16px;
+                    display: flex;
+                    justify-content: flex-start;
+                    flex-direction: column;
+                    color: #fff;
+
+                    h1{
+                        color: #BCA37F;
+
+                        span{
+                            color: #000;
+                        }
+                    }
+
+                    p{
+                        margin-top: 20px;
+                        font-size: 12px;
+                    }
+
+                    .social{
+                        margin-top: 30px;
+                        font-size: 14px;
+                        cursor: pointer;
+
+                        .Icon{
+                            margin-right: 10px;
+                        }
+                    }
+    
+                    h2{
+                        color: #040D12;
+                        margin: 20px 0 2px 40px;
+                        font-size: 18px;
+                        font-weight: 600;
+                    }
+    
+                    a{
+                        font-size: 14px;
+                        margin: 2px 0 2px 40px;
+                        color: whitesmoke;
+                        text-decoration: none;
+                    }
+                    
+                }
+
+                .joinOur{
+                    margin-top: 80px;
+                    margin-left: 50px;
+                
+                    span{
+                        display: flex;
+                        font-weight: 600;
+                        color: #fff;
+                    }
+
+                    input{
+                        margin-top: 20px;
+                        width: 250px;
+                        padding: 10px;
+                        outline: none;
+                        border-radius: 5px;
+                    }
+
+                    button{
+                        padding: 10px;
+                        background-color: #D0BFFF;
+                        border: none;
+                        border-radius: 5px;
+                        cursor: pointer;
+                    }
+
+                    p{
+                        margin-top: 10px;
+                        font-size: 14px;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    
+    }
+}

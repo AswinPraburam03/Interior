@@ -1,0 +1,173 @@
+.main{
+    width: 100%;
+    margin-top: 300px;
+    margin-right: 50px;
+
+    .mainWrapper{
+
+        .mainheading{
+            margin-left: 200px;
+            margin-right: 150px;
+
+            .service{
+                margin-top: 30px;
+                margin-right: 70px;
+                display: flex;
+                justify-content: space-between;
+
+                .content{
+                    h4{
+                        display: flex;
+                        gap: 10px;
+                        .Icons{
+                            align-self: center;
+                        }
+                    }
+                  
+                
+                p{
+                    margin-top: 20px;
+                    color: dimgray;
+                    font-weight: 500;
+                }
+
+            }
+            }
+
+            .experience{
+                display: flex;
+                justify-content: space-between;
+                margin-top: 80px;
+
+                img{
+                    width: 600px;
+                    height: 400px;
+                    margin-right: 50px;
+                }
+
+                .h1{
+                    margin-left: 30px;
+
+                    p{
+                        margin-top: 30px;
+                        font-size: 14px;
+                        color: dimgray;
+                        line-height: 30px;
+                        font-weight: 500;
+                    }
+
+                    .gained{
+                        display: flex;
+                        justify-content: space-between;
+                    
+                    .award{
+                        h1{
+                            font-size: 60px;
+                            margin-top: 50px;
+                            color: #186F65;
+                        }
+
+                        span{
+                            font-weight: 600;
+                        }
+
+                    }
+
+                    }
+
+                    .btn{
+                        display: flex;
+                        justify-content: space-between;
+                        margin-top: 40px;
+                        
+                    }
+                    button{
+                        padding: 5px 10px;
+                        background-color: transparent;
+                        color: #004225;
+                        font-size: 18px;
+                        font-weight: 600;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+
+    .guidelines{
+        display: flex;
+        
+        .steps{
+            margin-left: 70px;
+            margin-top: 100px;
+            
+            h1{
+                margin-left: 100px;
+            }
+            
+            .content{
+                margin-left: 100px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 40px;
+                margin-top: 50px;
+                position: relative; 
+              
+
+                p{
+                    font-size: 20px;
+                    margin-bottom: 50px;
+                    width: 50px;
+                    height: 50px;
+                    background-color: #7C81AD;
+                    color: #fff;
+                    border-radius: 50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;  
+                    
+
+                  
+                }
+
+                .vertical-line{
+                    width: 3px;
+                    height: 100px;
+                    margin-right: 370px;
+                    margin-bottom: 250px;
+                    position: absolute;
+                    background-color: #7C81AD;
+                }
+
+                .h4{
+                    margin-top: 30px;
+                    font-size: 20px;
+
+                    h4{
+                        margin-bottom: 20px;
+                    }
+
+                    span{
+                        margin-top: 50px;
+                        font-size: 14px;
+                        color: dimgray;
+                    }
+                }
+
+             
+            }
+            
+        }
+
+        .contentImg{
+            margin-top: 100px;
+            margin-left: 100px;
+
+            img{
+                width: 700px;
+                height: 600px;
+            }
+        }
+    }
+}
